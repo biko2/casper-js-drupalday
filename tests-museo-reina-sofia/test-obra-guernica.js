@@ -1,9 +1,6 @@
 var phantomcss = require('./../phantomcss.js');
 
-phantomcss.init( {
-		libraryRoot: '/Users/davidgil/Sites/museo/test'
-	}
-);
+phantomcss.init();
 
 casper.test.begin('Tests relacionados con obra guernica', 5, function suite(test) {
   casper.viewport(1024, 768);
